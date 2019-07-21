@@ -13,8 +13,8 @@ public class SeleniumTest {
 	public static void main1() {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.edge.driver", "C:\\Users\\Rashiq\\eclipse-workspace\\edge\\MicrosoftWebDriver.exe");
-		WebDriver driver= new EdgeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rashiq\\eclipse-workspace\\chromedriver_win32\\version75\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.flipkart.com");
