@@ -13,7 +13,7 @@ public class SeleniumTest {
 	public static void main1() {
 		// TODO Auto-generated method stub
 
-		System.setProperty("Webdriver.edge.driver", "C:\\Users\\Rashiq\\eclipse-workspace\\edge\\MicrosoftWebDriver.exe");
+		System.setProperty("webdriver.edge.driver", "C:\\Users\\Rashiq\\eclipse-workspace\\edge\\MicrosoftWebDriver.exe");
 		WebDriver driver= new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
